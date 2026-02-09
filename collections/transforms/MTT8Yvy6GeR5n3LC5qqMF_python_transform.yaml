@@ -1,0 +1,41 @@
+collection_id: null
+created_at: '2025-12-17T18:35:45.660094Z'
+creator_id: nickfitz.582@gmail.com
+description: null
+entity_id: MTT8Yvy6GeR5n3LC5qqMF
+name: Python Transform
+owner_email: null
+owner_user_id: nickfitz.582@gmail.com
+source:
+  body: |-
+    # Write your Python transformation script here
+    import pandas as pd
+
+    def transform(report_card):
+        """
+        Your transformation function.
+
+        Args:
+            report_card: DataFrame containing the data from the "App DB.public.report_card" table
+
+        Returns:
+            DataFrame to write to the destination table
+        """
+        # Your transformation logic here
+        return pd.DataFrame([{"message": "Hello from Python transform!"}])
+  query: null
+  source-database: 2
+  source-tables:
+    report_card: 63
+  type: python
+source_database_id: App DB
+tags: []
+target:
+  database: App DB
+  name: python_transform
+  schema: public
+  type: table
+serdes/meta:
+- id: MTT8Yvy6GeR5n3LC5qqMF
+  label: python_transform
+  model: Transform

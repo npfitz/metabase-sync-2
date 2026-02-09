@@ -1,0 +1,20 @@
+name: Metrics
+description: null
+entity_id: 7v6-Hdh0vm94n28nKiQXP
+slug: metrics
+created_at: '2025-12-08T14:53:32.397579Z'
+archived: false
+type: library-metrics
+parent_id: 7EqMc3npK313DDnef3aYc
+personal_owner_id: null
+namespace: null
+authority_level: null
+serdes/meta:
+- id: 7v6-Hdh0vm94n28nKiQXP
+  label: metrics
+  model: Collection
+archive_operation_id: null
+archived_directly: null
+is_remote_synced: true
+is_sample: false
+workspace_id: null

@@ -1,0 +1,26 @@
+collection_id: null
+created_at: '2026-01-30T16:06:44.534824Z'
+creator_id: nickfitz.582@gmail.com
+description: null
+entity_id: qc3i35NxMwiKYK1pHik8p
+name: PokemonTransform
+owner_email: null
+owner_user_id: nickfitz.582@gmail.com
+source:
+  query:
+    database: Pokemon
+    native:
+      query: Select * from pokemon_20251217163937
+    type: native
+  type: query
+source_database_id: Pokemon
+tags: []
+target:
+  database: Pokemon
+  name: pokemontransform
+  schema: cards
+  type: table
+serdes/meta:
+- id: qc3i35NxMwiKYK1pHik8p
+  label: pokemontransform
+  model: Transform

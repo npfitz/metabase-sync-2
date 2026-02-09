@@ -1,0 +1,7 @@
+path: common.py
+source: ''
+entity_id: cWWH9qJPvHNB3rP2vLZrK
+created_at: '2026-01-29T16:02:35.558677Z'
+serdes/meta:
+- id: cWWH9qJPvHNB3rP2vLZrK
+  model: PythonLibrary

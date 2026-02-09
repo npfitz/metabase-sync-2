@@ -1,0 +1,29 @@
+collection_id: null
+created_at: '2025-12-17T18:45:52.827395Z'
+creator_id: nickfitz.582@gmail.com
+description: null
+entity_id: 9U4dM54x2Ie9f5mTO5IUG
+name: Another one
+owner_email: null
+owner_user_id: nickfitz.582@gmail.com
+source:
+  query:
+    database: App DB
+    query:
+      source-table:
+      - App DB
+      - public
+      - api_key
+    type: query
+  type: query
+source_database_id: App DB
+tags: []
+target:
+  database: App DB
+  name: another_one
+  schema: public
+  type: table
+serdes/meta:
+- id: 9U4dM54x2Ie9f5mTO5IUG
+  label: another_one
+  model: Transform

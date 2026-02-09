@@ -1,0 +1,29 @@
+collection_id: C8k4Mf4W-VlHtfiGP8KPd
+created_at: '2025-12-10T15:15:23.021959Z'
+creator_id: nickfitz.582@gmail.com
+description: null
+entity_id: CsrUpWdTV7M7n-xd7oS9u
+name: Collection Transform
+owner_email: null
+owner_user_id: nickfitz.582@gmail.com
+source:
+  query:
+    database: App DB
+    query:
+      source-table:
+      - App DB
+      - public
+      - collection
+    type: query
+  type: query
+source_database_id: App DB
+tags: []
+target:
+  database: App DB
+  name: out_collections
+  schema: public
+  type: table
+serdes/meta:
+- id: CsrUpWdTV7M7n-xd7oS9u
+  label: collection_transform
+  model: Transform
